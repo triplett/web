@@ -7,16 +7,32 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      .scientist-background {
+        background: url('/scientist2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: -25px -25px 0 0;
+      }
+      .scientist-background h1 {
+        color: #ddd;
+      }
+      .scientist-background h3 {
+        color: #eee;
+      }
+      .header-shadow {
+        text-shadow: 0px 0px 1px #bbb;
+      }
+    </style>
   </head>
   <body>
 
-    <div class="jumbotron">
+    <div class="jumbotron scientist-background">
       <div class="container">
-        <h1>Triplett Lab</h1>
-        <h3>University of Florida, Gainesville, FL</h3>
+        <h1 class="header-shadow">Triplett Lab</h1>
+        <h3 class="header-shadow">University of Florida, Gainesville, FL</h3>
       </div>
     </div>
 
